@@ -1,0 +1,26 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/test
+      database: test
+  datasource:
+    druid:
+      url: jdbc:postgresql://localhost:5432/postgres?useSSL=false
+      username: postgres
+      password: nju123456
+ollama:
+    model:
+        name: qwen2.5:7b
+        host: localhost
+        port: 11434
+llw:
+  upload:
+    dir: D:\\file
+  embedding:
+    host: 127.0.0.1
+    port: 19530
+    collection: test_cn_collection
+logging:
+  level:
+    com.baomidou.mybatis-plus: WARN
+    org.apache.ibatis: WARN

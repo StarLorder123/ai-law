@@ -1,0 +1,23 @@
+.dashboard {
+  padding: 24px;
+}
+
+.dashboard .ant-card {
+  height: 100%;
+  background: #fff;
+}
+
+.dashboard .ant-card-head {
+  padding: 0 16px;
+  min-height: 48px;
+}
+
+.dashboard .ant-card-head-title {
+  padding: 12px 0;
+  font-size: 14px;
+}
+
+.dashboard .ant-card-body {
+  padding: 16px;
+  min-height: 120px;
+}

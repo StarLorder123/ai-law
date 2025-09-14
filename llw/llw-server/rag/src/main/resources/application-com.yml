@@ -1,0 +1,22 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://192.168.23.11:27017/test
+      database: test
+  datasource:
+    druid:
+      url: jdbc:postgresql://192.168.23.112:5432/postgres?useSSL=false
+      username: postgres
+      password: 123456
+ollama:
+  model:
+    name: llama3.2-vision
+    host: 192.168.23.11
+    port: 11434
+llw:
+  upload:
+    dir: D:\\file
+  embedding:
+    host: 127.0.0.1
+    port: 19530
+    collection: test_cn_collection

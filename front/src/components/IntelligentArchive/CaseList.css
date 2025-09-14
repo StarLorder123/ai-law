@@ -1,0 +1,28 @@
+.case-info {
+  padding: 8px 0;
+}
+
+.case-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.case-name {
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 12px;
+}
+
+.case-number {
+  margin-right: 12px;
+}
+
+.case-status {
+  font-size: 12px;
+}
+
+.case-summary {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.45);
+}

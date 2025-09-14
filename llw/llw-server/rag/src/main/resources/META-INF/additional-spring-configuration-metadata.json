@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "ollama.model.name",
+    "type": "java.lang.String",
+    "description": "ollama's model name"
+  },
+  {
+    "name": "ollama.model.port",
+    "type": "java.lang.String",
+    "description": "A description for 'ollama.model.port'"
+  },
+  {
+    "name": "ollama.model.host",
+    "type": "java.lang.String",
+    "description": "A description for 'ollama.model.host'"
+  }
+]}

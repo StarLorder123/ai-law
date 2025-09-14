@@ -1,0 +1,14 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: root
+      password: NJU123456
+      database: ai-law
+      authentication-database: admin
+  datasource:
+    druid:
+      url: jdbc:postgresql://localhost:5432/postgres?useSSL=false
+      username: postgres
+      password: nju123456

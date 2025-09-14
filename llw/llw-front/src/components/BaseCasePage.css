@@ -1,0 +1,19 @@
+/* 适用于 Webkit 内核浏览器 (Chrome/Safari/Edge) */
+::-webkit-scrollbar {
+    width: 4px;          /* 垂直滚动条宽度 */
+    height: 2px;         /* 水平滚动条高度 */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* 轨道背景色 */
+    border-radius: 2px;  /* 轨道圆角 */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;    /* 滑块颜色 */
+    border-radius: 2px;  /* 滑块圆角 */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;    /* 滑块悬停颜色 */
+  }

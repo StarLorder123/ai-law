@@ -1,0 +1,12 @@
+.ant-card {
+  margin: 24px;
+  border-radius: 4px;
+}
+
+.ant-table-wrapper {
+  background: #fff;
+}
+
+.ant-table-thead > tr > th {
+  background: #fafafa;
+}
